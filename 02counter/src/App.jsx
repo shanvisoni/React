@@ -10,7 +10,22 @@ function App() {
 const addValue=()=>{
  if(counter<20){
   counter=counter+1
-  setCounter(counter)
+setCounter(counter)
+
+// using multiple, it still increases only 1 value bz of bundle form passing
+// setCounter(counter)
+// setCounter(counter)
+// setCounter(counter)
+// setCounter(counter)
+// setCounter(counter)
+
+//during passing values in setCounter it sends values in bunch 
+
+// it increases 4 time bz everytime it takes previous value and increse that
+// setCounter(prevCounter => prevCounter + 1)
+// setCounter(prevCounter => prevCounter + 1)
+// setCounter(prevCounter => prevCounter + 1)
+// setCounter(prevCounter => prevCounter + 1)
  }
   
  
